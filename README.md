@@ -10,18 +10,18 @@ This GitHub repository contains the source code and datasets used in the researc
 - The improved DEM demonstrated better flood pattern accuracy by increasing detection probability and reducing false alarms.
 
 # Repository Structure
- - `config.py`: Contains configuration settings and constants used throughout the project, including default values for patches, batch sizes, and number of epochs. Note that hyperparameters for evaluation are also defined separately within the hyperparameter tuning script
-`emf_gnn.py`
-- data_preparation.py: Includes functions and methods for reading, preprocessing, and splitting the data into training, validation, and test sets. It also handles patch creation and data normalization.
+ - `config.py`: Contains configuration settings and constants used throughout the project, including default values for patche size, batch sizes, and number of epochs. Note that hyperparameters for evaluation are also defined separately within the hyperparameter tuning script
 
-- visualization.py: Provides functions for visualizing various aspects of the data and model performance, including plotting training and validation metrics, DEMs, and evaluation metrics.
+ - `data_preparation.py`: Includes functions and methods for reading, preprocessing, and splitting the data into training, validation, and test sets. It also handles patch creation and data normalization.
 
-- cnn_unet.py: Contains the implementation of the Convolutional Neural Network (CNN) U-Net model used for improving the DEM resolution. It also includes loss functions and evaluation metrics.
+- `visualization.py`: Provides functions for visualizing various aspects of the data and model performance, including plotting training and validation metrics, DEMs, and evaluation metrics.
 
-- hyperparameter_tuning.py: Implements the hyperparameter tuning process using Optuna to optimize the U-Net model's performance by adjusting various hyperparameters.
+- `cnn_unet.py`: Contains the implementation of the Convolutional Neural Network (CNN) U-Net model used for improving the DEM resolution. It also includes loss functions and evaluation metrics.
 
-- training.py: Script for training the U-Net model using the prepared datasets and optimized hyperparameters. It includes the training loop and validation steps.
+- `hyperparameter_tuning.py`: Implements the hyperparameter tuning process using Optuna to optimize the U-Net model's performance by adjusting various hyperparameters.
 
-- testing.py: Script for testing the trained U-Net model on new data. It includes methods for making predictions and evaluating the model's performance on the test set.
+- `training.py`: Script for training the U-Net model using the prepared datasets and optimized hyperparameters. It includes the training loop and validation steps.
 
-- evaluation.py: Contains functions for evaluating the enhanced DEM against reference DEMs and performing statistical error analysis and flood modeling performance assessment.
+- `testing.py`: Script for testing the trained U-Net model on new data. It includes methods for making predictions and evaluating the model's performance on the test set.
+
+- `evaluation.py`: Contains functions for evaluating the enhanced DEM against reference DEMs and performing statistical error analysis and flood modeling performance assessment.
