@@ -50,3 +50,15 @@ Use the testing.py script to evaluate the trained model on the test area, calcul
 6. Detailed Evaluation:
 Run the evaluation.py script for a detailed evaluation and comparison of the enhanced DEM against reference DEM and GDEMs, including statistical analysis and visualization of results:
 `python evaluation.py`
+
+# Requirements
+To ensure all scripts run correctly, the following Python packages must be installed:
+
+numpy: For numerical operations and array manipulation.
+torch: For building and training the CNN U-Net model.
+rasterio: For reading and writing raster data.
+geopandas: For handling geospatial data.
+matplotlib: For plotting and visualizations.
+optuna: For hyperparameter tuning.
+tqdm: For displaying progress bars during training and evaluation.
+scikit-learn: For calculating evaluation metrics.
