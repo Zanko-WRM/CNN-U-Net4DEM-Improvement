@@ -54,11 +54,23 @@ Run the evaluation.py script for a detailed evaluation and comparison of the enh
 # Requirements
 To ensure all scripts run correctly, the following Python packages must be installed:
 
-numpy: For numerical operations and array manipulation.
-torch: For building and training the CNN U-Net model.
-rasterio: For reading and writing raster data.
-geopandas: For handling geospatial data.
-matplotlib: For plotting and visualizations.
-optuna: For hyperparameter tuning.
-tqdm: For displaying progress bars during training and evaluation.
-scikit-learn: For calculating evaluation metrics.
+`numpy`: For numerical operations and array manipulation.
+
+`torch`: For building and training the CNN U-Net model.
+
+`rasterio`: For reading and writing raster data.
+
+`geopanda`: For handling geospatial data.
+
+`matplotlib`: For plotting and visualizations.
+
+`optuna`: For hyperparameter tuning.
+
+`tqdm`: For displaying progress bars during training and evaluation.
+
+`scikit-learn`: For calculating evaluation metrics.
+
+
+# Citation
+If you use this code or the framework in your research, please cite our paper:
+Zandsalimi, Z., Barbosa, S.A., Goodall, J.L., Alemazkoor, N., Shafiee-Jood, M. (2024). Improving Spatial Resolution and Accuracy of Global Digital Elevation Models for Flood Modeling Using Deep Learning-Based Integration of Remote Sensing Data. [Under rivew].
