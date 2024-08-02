@@ -31,7 +31,7 @@ To set up and run the scripts, follow these steps:
 
 1. Install Required Packages:
 Install the required packages listed in the requirements.txt file:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 2. Prepare the Input Data:
 After performing the necessary preprocessing for remote imagery data using ArcGIS Pro and SNAP software, stack all processed bands and indices into a single raster layer in the following order: GDEMs, Landsat 8 bands, indices from Landsat 8, Sentinel-2 bands, indices from Sentinel-2, Sentinel-1 bands, OSM layers, and the target 5-meter DEM.
@@ -41,12 +41,12 @@ Ensure all configuration settings and constants are correctly defined in config.
 
 4. Run Training and Hyperparameter Tuning:
 Execute the training.py script to train the model and perform hyperparameter tuning simultaneously:
-python training.py
+`python training.py`
 
 5. Run Model Over Test Area:
 Use the testing.py script to evaluate the trained model on the test area, calculate performance metrics, and generate reconstructed output DEMs:
-python testing.py
+`python testing.py`
 
 6. Detailed Evaluation:
 Run the evaluation.py script for a detailed evaluation and comparison of the enhanced DEM against reference DEM and GDEMs, including statistical analysis and visualization of results:
-python evaluation.py
+`python evaluation.py`
