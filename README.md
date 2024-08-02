@@ -10,7 +10,7 @@ This GitHub repository contains the source code and datasets used in the researc
 - The improved DEM demonstrated better flood pattern accuracy by increasing detection probability and reducing false alarms.
 
 # Repository Structure
-- config.py: Contains configuration settings and constants used throughout the project, including file paths, hyperparameters, and other key settings.
+ - config.py: Contains configuration settings and constants used throughout the project, including default values for patches, batch sizes, and number of epochs. Note that hyperparameters for evaluation are also defined separately within the hyperparameter tuning script
 
 - data_preparation.py: Includes functions and methods for reading, preprocessing, and splitting the data into training, validation, and test sets. It also handles patch creation and data normalization.
 
