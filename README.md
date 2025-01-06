@@ -74,4 +74,4 @@ To ensure all scripts run correctly, the following Python packages must be insta
 # Citation
 If you use this code or the framework in your research, please cite our paper:
 
-Zandsalimi, Z., Barbosa, S.A., Goodall, J.L., Alemazkoor, N., Shafiee-Jood, M. (2024). Improving Spatial Resolution and Accuracy of Global Digital Elevation Models for Flood Modeling Using Deep Learning-Based Integration of Remote Sensing Data. [Under rivew].
+Zandsalimi, Z., Barbosa, S.A., Goodall, J.L., Alemazkoor, N., Shafiee-Jood, M. (2024). Deep Learning-Based Downscaling of Global Digital Elevation Models for Enhanced Urban Flood Modeling. [Accepted to the Journal of Hydrology].
