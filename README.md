@@ -1,4 +1,4 @@
-# Improving Spatial Resolution and Accuracy of Global Digital Elevation Models for Flood Modeling Using Deep Learning-Based Integration of Remote Sensing Data 
+# Deep Learning-Based Downscaling of Global Digital Elevation Models for Enhanced Urban Flood Modeling 
 
 # Overview
 This GitHub repository contains the source code and datasets used in the research paper, "Improving Spatial Resolution and 
